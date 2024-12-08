@@ -1,0 +1,38 @@
+.keyboard {
+    background: #d1d5db;
+    padding: 8px;
+    width: 100%;
+    /* Suppression de position: fixed */
+}
+
+.keyboard-row {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    margin-bottom: 4px;
+}
+
+.key {
+    background: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px; /* Réduit un peu la taille des touches */
+    font-size: 14px;
+    min-width: 28px;
+    height: 40px; /* Hauteur fixe pour toutes les touches */
+    text-align: center;
+    cursor: pointer;
+}
+
+.special-key {
+    flex: 0.7;
+}
+
+.space-key {
+    flex: 2;
+}
+
+/* Ajout d'un effet au clic */
+.key:active {
+    background: #e5e7eb;
+}

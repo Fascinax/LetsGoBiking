@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detailed Route</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/detailedRoute.css">
+</head>
+<body>
+<div class="phone-container">
+    <!-- En-tête avec les adresses -->
+    <div class="addresses-header">
+        <div class="input-group">
+            <span class="material-icons location-icon">place</span>
+            <span class="input-content" id="origin-display">Your location</span>
+            <button class="menu-btn">
+                <span class="material-icons">more_vert</span>
+            </button>
+        </div>
+
+        <div class="input-group">
+            <span class="material-icons location-icon">place</span>
+            <span class="input-content" id="destination-display">Destination address</span>
+            <button class="switch-btn">
+                <span class="material-icons">swap_vert</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Titre de la section -->
+    <div class="section-title">
+        <h2>Detailed route</h2>
+    </div>
+
+    <!-- Liste des étapes -->
+    <div class="route-steps" id="route-steps">
+        <!-- Les étapes seront injectées ici par le JS -->
+    </div>
+
+    <!-- Instructions -->
+    <div id="instructions"></div>
+
+    <!-- Bouton retour en bas -->
+    <a href="index.html" class="navigation-link">
+        <span class="material-icons">arrow_back</span>
+        Back to map
+    </a>
+</div>
+
+<script type="module" src="js/detailedRoute.js"></script>
+</body>
+</html>

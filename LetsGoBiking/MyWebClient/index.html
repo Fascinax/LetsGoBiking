@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="phone-container">
+    <!-- Zone de recherche -->
+    <div class="search-area">
+        <div class="input-group" data-type="origin">
+            <span class="material-icons location-icon">place</span>
+            <span class="input-content">Your <span class="text-blue">location</span></span>
+            <button class="clear-btn">
+                <span class="material-icons">close</span>
+            </button>
+            <button class="menu-btn">
+                <span class="material-icons">more_vert</span>
+            </button>
+        </div>
+
+        <div class="input-group" data-type="destination">
+            <span class="material-icons location-icon">place</span>
+            <span class="input-content">Destination <span class="text-blue">address</span></span>
+            <button class="clear-btn">
+                <span class="material-icons">close</span>
+            </button>
+            <button class="switch-btn">
+                <span class="material-icons">swap_vert</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Carte -->
+    <div id="map"></div>
+
+    <!-- Zone inférieure -->
+    <div class="bottom-area">
+        <div class="route-info">
+            <span class="duration">12 mins</span>
+            <span class="distance">• 2km</span>
+            <span class="traffic-status">Fastest route, the usual traffic</span>
+        </div>
+
+        <div class="actions">
+            <button class="btn btn-start">
+                <span class="material-icons">navigation</span>
+                Start
+            </button>
+            <button class="btn btn-details" onclick="window.location.href='detailedRoute.html'">
+                <span class="material-icons">list</span>
+                Detailed route
+            </button>
+        </div>
+
+        <a href="alert.html" class="traffic-link">
+            <span class="material-icons">traffic</span>
+            Traffic infos
+        </a>
+    </div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src="js/MapManager.js"></script>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

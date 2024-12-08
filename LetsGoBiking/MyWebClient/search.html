@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Location</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/search.css">
+</head>
+<body>
+<div class="phone-container">
+    <!-- Zone fixe du haut avec l'autre adresse -->
+    <div class="fixed-location" id="fixedLocation">
+        <div class="location-dot"></div>
+        <span class="location-text" id="otherLocation">Loading...</span>
+    </div>
+
+    <!-- Zone de recherche -->
+    <div class="search-header">
+        <button class="back-button">←</button>
+        <input type="text" class="search-input" placeholder="Enter location" autofocus>
+        <button class="clear-button">×</button>
+    </div>
+
+    <div id="search-results"></div>
+
+    <div id="keyboard"></div>
+</div>
+
+<script type="module" src="components/SearchResult.js"></script>
+<script type="module" src="components/VirtualKeyboard.js"></script>
+<script type="module" src="js/searchApp.js"></script>
+</body>
+</html>

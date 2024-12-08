@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hiba Khayati\\Documents\\Study\\02-SecondYear\\PS8\\08- SOC\\TDS\\LetsGoBiking\\LetsGoBiking\\HeavyClient\\HeavyClient.csproj": {}
+    "D:\\Users\\Dark_\\Workspace\\SI4\\LetsGoBikinglast\\LetsGoBiking\\HeavyClient\\HeavyClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hiba Khayati\\Documents\\Study\\02-SecondYear\\PS8\\08- SOC\\TDS\\LetsGoBiking\\LetsGoBiking\\HeavyClient\\HeavyClient.csproj": {
+    "D:\\Users\\Dark_\\Workspace\\SI4\\LetsGoBikinglast\\LetsGoBiking\\HeavyClient\\HeavyClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hiba Khayati\\Documents\\Study\\02-SecondYear\\PS8\\08- SOC\\TDS\\LetsGoBiking\\LetsGoBiking\\HeavyClient\\HeavyClient.csproj",
+        "projectUniqueName": "D:\\Users\\Dark_\\Workspace\\SI4\\LetsGoBikinglast\\LetsGoBiking\\HeavyClient\\HeavyClient.csproj",
         "projectName": "HeavyClient",
-        "projectPath": "C:\\Users\\Hiba Khayati\\Documents\\Study\\02-SecondYear\\PS8\\08- SOC\\TDS\\LetsGoBiking\\LetsGoBiking\\HeavyClient\\HeavyClient.csproj",
-        "packagesPath": "C:\\Users\\Hiba Khayati\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hiba Khayati\\Documents\\Study\\02-SecondYear\\PS8\\08- SOC\\TDS\\LetsGoBiking\\LetsGoBiking\\HeavyClient\\obj\\",
+        "projectPath": "D:\\Users\\Dark_\\Workspace\\SI4\\LetsGoBikinglast\\LetsGoBiking\\HeavyClient\\HeavyClient.csproj",
+        "packagesPath": "C:\\Users\\Dark_\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Dark_\\Workspace\\SI4\\LetsGoBikinglast\\LetsGoBiking\\HeavyClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hiba Khayati\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Dark_\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -67,16 +70,35 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.35, 6.0.35]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.35, 6.0.35]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.35, 6.0.35]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.35, 6.0.35]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

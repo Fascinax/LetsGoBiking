@@ -1,0 +1,126 @@
+/* Style pour la location fixe */
+.fixed-location {
+    padding: 12px 16px;
+    background: #f1f3f4;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.location-dot {
+    width: 8px;
+    height: 8px;
+    background: #1a73e8;
+    border-radius: 50%;
+}
+
+.location-text {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Zone de recherche */
+.search-header {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    border-bottom: 1px solid #e0e0e0;
+    background: white;
+}
+
+.back-button, .clear-button {
+    border: none;
+    background: none;
+    padding: 8px;
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    margin: 0 8px;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+#search-results {
+    flex: 1;
+    overflow-y: auto;
+    background: white;
+}
+
+.search-result {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    border-bottom: 1px solid #f0f0f0;
+    cursor: pointer;
+}
+
+.search-result:hover {
+    background: #f8f9fa;
+}
+
+.result-icon {
+    margin-right: 12px;
+    color: #666;
+}
+
+.result-info {
+    flex: 1;
+}
+
+.result-main {
+    font-size: 15px;
+    color: #202124;
+}
+
+.result-secondary {
+    font-size: 13px;
+    color: #5f6368;
+    margin-top: 2px;
+}
+
+.fixed-location {
+    padding: 12px 16px;
+    background: #f1f3f4;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.location-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.location-dot[data-type="origin"] {
+    background: #1a73e8;
+}
+
+.location-dot[data-type="destination"] {
+    background: #000;
+}
+
+.location-text {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Ajout d'un style pour montrer quelle adresse on modifie */
+.search-header[data-type="origin"] .search-input {
+    color: #1a73e8;
+}
+
+.search-header[data-type="destination"] .search-input {
+    color: #202124;
+}
